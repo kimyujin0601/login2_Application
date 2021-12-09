@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"  >
 
@@ -16,11 +17,12 @@
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="고객 관리"
+            android:text="상품 목록"
             android:textSize="18dp"
             android:textStyle="bold"
             android:textColor="#ff333333"
             />
+
         <Button
             android:id="@+id/backButton"
             android:layout_width="180dp"
@@ -29,7 +31,7 @@
             android:text="메뉴 화면"
             android:textSize="18dp"
             android:textStyle="bold"
-            />
+            app:backgroundTint="#FF5E5E" />
     </LinearLayout>
 
 </RelativeLayout>
